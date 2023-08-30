@@ -395,7 +395,12 @@ p:last-child {
   .centered-elements {
     text-align: center;
     margin: 0 auto;
-}
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    padding-top: 100px;
+  }  
 }
 
 @media (max-width: 544px) {
