@@ -366,7 +366,7 @@ p:last-child {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .tm-main-content {
     padding-bottom: 100px;
   }
