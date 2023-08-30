@@ -366,13 +366,14 @@ p:last-child {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .container {
     max-width: 450px;
   }
   .content {
     margin-left: auto;
     margin-right: 0;
+    padding-bottom: 100px;
   }
   .tm-nav ul {
     display: flex;
