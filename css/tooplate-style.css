@@ -327,11 +327,11 @@ footer {
 .tm-main-content.tm-footer-relative {
   flex-direction: column;
 }
-.tm-main-content.tm-footer-relative footer {
+/* .tm-main-content.tm-footer-relative footer {
   position: relative;
   bottom: 0;
   margin-top: 50px;
-}
+} */
 
 .tm-copyright-text {
   background-color: rgba(0, 0, 0, 0.6);
@@ -398,8 +398,7 @@ p:last-child {
   }
   footer {
     position: fixed;
-    bottom: 0;
-    padding-bottom: 100px;
+    bottom: 30px;
   }  
 }
 
@@ -415,9 +414,8 @@ p:last-child {
   }
 
   footer {
-    position: relative;
-    bottom: 0;
-    padding-top: 100px;
+    position: fixed;
+    bottom: 30px;
   }
 }
 
