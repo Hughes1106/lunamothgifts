@@ -353,6 +353,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.centered-elements {
+  text-align: center;
+  margin: 0 auto;
+}
+
 @media (min-width: 900px) {
   .container {
     max-width: 900px;
