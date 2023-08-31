@@ -371,6 +371,10 @@ p:last-child {
     left: 0;
     right: 0;
   }
+  .centered-elements {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -398,10 +402,6 @@ p:last-child {
   }
   .tm-reverse-sm {
     flex-direction: column-reverse;
-  }
-  .centered-elements {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 
